@@ -145,7 +145,7 @@ int check_left_right_wall(int future_coord_x, int future_coord_y, int racket1, i
         (future_coord_y == racket1 || future_coord_y == racket1 - 1 || future_coord_y == racket1 + 1)) {
         return 1;
     } else if (future_coord_x == 76 && (future_coord_y == racket2 || future_coord_y == racket2 - 1 ||
-                                        future_coord_y == racket2 + 1)) {
+                                    future_coord_y == racket2 + 1)) {
         return -1;
     }
     return ball_change_x;
